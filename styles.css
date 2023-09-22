@@ -1,0 +1,26 @@
+:root {
+    border: 1px solid black;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-column {
+    flex: 1;
+}
+
+.sign-up-column {
+    flex: 2;
+}
+
+.row-box {
+    flex: 1;
+    border: 1px solid black;
+}
