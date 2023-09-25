@@ -27,7 +27,6 @@
 
 .row-box {
     flex: 1;
-    border: 1px solid black;
 }
 
 .logo-banner {
@@ -36,4 +35,13 @@
     background-color: rgba(0,0,0,0.1);
     padding: 1rem;
     margin-top: 70%;
+}
+
+.box-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    
 }
