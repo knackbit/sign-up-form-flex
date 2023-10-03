@@ -87,3 +87,22 @@ label {
     font-size: .75rem;
     font-weight: 600;
 }
+
+
+input {
+    border-color: rgb(245, 245, 245);
+    background-color: rgba(245, 245, 245, .5);
+    border-width: 1px;
+    border-style: solid;
+    padding: .5rem 1rem;
+    margin-bottom: 1rem;
+}
+
+input:focus {
+
+}
+
+input:focus-visible {
+    outline-color: rgba(0, 0, 255, 0.473);
+    box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.35);
+}
