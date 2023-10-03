@@ -299,3 +299,4 @@
   </g>
  </g>
 </svg>
+e is to inline your SVGs by pasting their contents directly into your webpage’s code, rather than linking to it as an image. It will still render correctly, but the SVG’s properties 
