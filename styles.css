@@ -77,7 +77,7 @@
 
 a {
     text-decoration: none;
-    color: green;
+    color: rgb(48, 102, 48);
     font-weight: 800;
 }
 
@@ -96,6 +96,7 @@ input {
     border-style: solid;
     padding: .5rem 1rem;
     margin-bottom: 1rem;
+    border-radius: 5pxcf;
 }
 
 input:focus {
@@ -104,5 +105,19 @@ input:focus {
 
 input:focus-visible {
     outline-color: rgba(0, 0, 255, 0.473);
+    box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.35);
+}
+
+.box-create-account>* {
+    margin-bottom: 2rem;
+}
+
+button {
+    border-radius: 5px;
+    padding: .75rem 2.5rem;
+    background-color: rgb(48, 102, 48);
+    color: azure;
+    font-size: 1.25rem;
+    border: 0px;
     box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.35);
 }
