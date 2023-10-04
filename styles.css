@@ -99,10 +99,6 @@ input {
     border-radius: 5pxcf;
 }
 
-input:focus {
-
-}
-
 input:focus-visible {
     outline-color: rgba(0, 0, 255, 0.473);
     box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.35);
