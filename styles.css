@@ -17,6 +17,8 @@
 }
 
 .logo-column {
+    display: flex;
+    flex-direction: column;
     flex: 1;
     background-image: url(images/Potato_background.jpg);
     background-size: cover;
@@ -139,4 +141,11 @@ input.valid {
 
 input.error {
     border: 1px solid red;
+}
+
+.footer-credit {
+    margin-top: auto;
+    text-align: center;
+    color: azure;
+    padding-bottom: .5rem;
 }
